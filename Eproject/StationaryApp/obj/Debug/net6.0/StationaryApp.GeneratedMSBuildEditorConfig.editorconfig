@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StationaryApp
+build_property.RootNamespace = StationaryApp
+build_property.ProjectDir = C:\Users\saddam hussain\Downloads\Online Stationary Management System\Online Stationary Management System\Eproject\StationaryApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\saddam hussain\Downloads\Online Stationary Management System\Online Stationary Management System\Eproject\StationaryApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/addcategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRjYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/addpro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZGRwcm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/orderlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxvcmRlcmxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/regWS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxyZWdXUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/Selectrole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxlY3Ryb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/showcategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93Y2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/showpro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzaG93cHJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/Signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/UpdCat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRDYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/uppro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cHByby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/upws.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cHdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Home/upwstatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx1cHdzdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/FPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJcRlBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/rorderslip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJccm9yZGVyc2xpcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/rpurchaselist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJccnB1cmNoYXNlbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/rsaleslist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJccnNhbGVzbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/rshowsaleslist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJccnNob3dzYWxlc2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/ShowRetailerOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJcU2hvd1JldGFpbGVyT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/Signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJcU2lnbmluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Retailer/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV0YWlsZXJcU2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Shared/_RetailerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXRhaWxlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Shared/_WholesalerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XaG9sZXNhbGVyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/fpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxmcGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxwcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/regrs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxyZWdycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/retailerorderlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxyZXRhaWxlcm9yZGVybGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/Signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxTaWduaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/upretailerstatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx1cHJldGFpbGVyc3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/uprs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx1cHJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/uprstatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx1cHJzdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/worderslip.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx3b3JkZXJzbGlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/wpurchaselist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx3cHVyY2hhc2VsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/wsaleslist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx3c2FsZXNsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Wholesaler/wshowsaleslist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2hvbGVzYWxlclx3c2hvd3NhbGVzbGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/saddam hussain/Downloads/Online Stationary Management System/Online Stationary Management System/Eproject/StationaryApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ltihtgcui1

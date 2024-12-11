@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Retailerorderlist>
+@{
+    Layout = "_RetailerLayout";
+}
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col">
+                    <h3 class="page-title">Retailer Order List</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="Retailer" asp-action="Index">Dashboard</a></li>
+                        @* <li class="breadcrumb-item active">Wholesalers Order List</li> *@
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        @* <h4>wholesaler order List</h4> *@
+                        @*  <h6>Manage your User</h6> *@
+                        @*   <p class="card-text">
+                        This is the most basic example of the datatables with zero configuration. Use the <code>.datatable</code> class to initialize datatables.
+                        </p> *@
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table  datanew ">
+                                <thead>
+                                    <tr>
+
+                                        <th>#</th>
+                                        <th>Email</th>
+                                        <th>Product Name</th>
+                                        <th>Product Desc</th>
+
+                                        <th>Category Name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total Price</th>
+                                        <th>Image</th>
+
+                                        <th>Update Status</th>
+                                        @*  <th>Action</th> *@
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    @foreach (var item in Model) // Change ViewBag.rolist to Model
+                                    {
+                                        <tr>
+                                            <td>@item.RorderId</td>
+                                            <td>@item.Retaileremail</td>
+                                            <td>@item.ProName</td>
+                                            <td>@item.ProDesc</td>
+                                            <td>@item.Catename</td>
+                                            <td>@item.ProPrice</td>
+                                            <td>@item.Rproqty</td>
+                                            <td>@item.Rtotalprice</td>
+                                            <td><img src="~/upl_images/@item.ProImg" width="80" /></td>
+                                            <td>
+                                                @if (item.Rstatus == "Approved")
+                                                {
+                                                    <a class="bg-lightgreen badges text-light"  asp-route-upd="Approved">
+                                                        Approved
+                                                    </a>
+                                                }
+                                                else if (item.Rstatus == "Delivered")
+                                                {
+                                                    <a class="bg-warning badges text-light"  asp-route-upd="Delivered">
+                                                        Delivered
+                                                    </a>
+                                                }
+                                                else if (item.Rstatus == "Rejected")
+                                                {
+                                                    <a class="bg-info badges text-light"  asp-route-upd="Rejected">
+                                                        Rejected
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <a class="bg-lightred badges text-light"  asp-route-upd="Pending">
+                                                        Pending
+                                                    </a>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

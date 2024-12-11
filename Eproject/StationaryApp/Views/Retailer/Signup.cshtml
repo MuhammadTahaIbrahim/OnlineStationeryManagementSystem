@@ -1,0 +1,102 @@
+﻿@model StationaryApp.Models.Regretailer;
+
+@{
+    Layout = "";
+}
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="POS - Bootstrap Admin Template">
+    <meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects">
+    <meta name="author" content="Dreamguys - Bootstrap Admin Template">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Login - Stationary Managment System</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/admin/assets/img/favicon.jpg">
+    <link rel="stylesheet" href="~/admin/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/admin/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/admin/assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="~/admin/assets/css/style.css">
+</head>
+<body class="account-page">
+
+    <div class="main-wrapper">
+        <div class="account-content">
+            <div class="login-wrapper">
+                <div class="login-content">
+                    <div class="login-userset">
+                        <div class="login-logo">
+                            @* <img src="~/admin/assets/img/logo.png" alt="img"> *@
+                        </div>
+                        <div class="login-userheading">
+                            <h3>Retailer Sign Up</h3>
+                            <h4>Please Sign Up to your account</h4>
+                        </div>
+
+                        <form class="mt-5 mb-5 login-input" method="post" asp-controller="Retailer" asp-action="Signup">
+                            <div class="form-login">
+                                <label>UserName</label>
+                                <div class="form-addons">
+                                    <input type="text" class="form-control" placeholder="Please Enter Your Username" asp-for="UserName">
+                                </div>
+                                <!-- Display error message for UserName -->
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.UserName)</span>
+                            </div>
+
+                            <div class="form-login">
+                                <label>Password</label>
+                                <div class="pass-group">
+                                    <input type="password" class="form-control" placeholder="Please Enter Your Password" asp-for="UserPass">
+                                </div>
+                                <!-- Display error message for UserPass -->
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.UserPass)</span>
+                            </div>
+
+                            <div class="form-login">
+                                <label>Email</label>
+                                <div class="form-addons">
+                                    <input type="text" class="form-control" placeholder="Please Enter Your Email" asp-for="UserEmail">
+                                </div>
+                                <!-- Display error message for Email -->
+                                <span class="text-danger">@Html.ValidationMessageFor(m => m.UserEmail)</span>
+                            </div>
+
+                            <div class="form-login">
+                                <button type="submit" class="btn btn-login">Sign Up</button>
+                            </div>
+
+                            <div class="signinform text-center">
+                                <h4>Already have an account? <a asp-controller="Retailer" asp-action="Signin">Sign In</a></h4>
+                            </div>
+                        </form>
+
+
+                        @if (ViewBag.msg1 != null)
+                        {
+                            <p class="mt-5 text-danger text-center">@ViewBag.msg1</p>
+                        }
+
+
+                    </div>
+                </div>
+                <div class="login-img">
+                    <img src="~/admin/assets/img/login.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+    <script src="~/admin/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/admin/assets/js/feather.min.js"></script>
+    <script src="~/admin/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admin/assets/js/script.js"></script>
+</body>
+</html>
+ 

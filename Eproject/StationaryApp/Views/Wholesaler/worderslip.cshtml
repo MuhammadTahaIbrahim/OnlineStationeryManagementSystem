@@ -1,0 +1,165 @@
+﻿@model StationaryApp.Models.Whorder
+@{
+    Layout = "_WholesalerLayout";
+}
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Order Details</h4>
+                <h6>Full details of your order</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="productdetails">
+                    <ul class="product-bar">
+                        <li>
+                            <h4>Registered Wholesaler Email</h4>
+                            <h6>@Model.Whsaleremail</h6>
+
+                        </li>
+                        <li>
+                            <h4>Product Name</h4>
+                            <h6>@Model.WproIdfkNavigation?.ProName</h6>
+
+                        </li>
+                        <li>
+                            <h4>Category</h4>
+                            @if (Model.WproIdfkNavigation != null && Model.WproIdfkNavigation.ProcatidFkNavigation != null)
+                            {
+                                <h6>@Model.WproIdfkNavigation.ProcatidFkNavigation.CatName</h6>
+                            }
+                            else
+                            {
+                                <h6>Category not available</h6>
+                            }
+
+                        </li>
+                        <li>
+                            <h4>Description</h4>
+                            <h6>@Model.WproIdfkNavigation.ProDesc</h6> <!-- Accessing the Product description -->
+                        </li>
+                        <li>
+                            <h4>Per Product Price</h4>
+                            <h6>@Model.WproIdfkNavigation.ProPrice</h6> <!-- Displaying the quantity -->
+                        </li>
+                        <li>
+                            <h4>Total Quantity</h4>
+                            <h6>@Model.Wproqty</h6> <!-- Displaying the quantity -->
+                        </li>
+                        <li>
+                            <h4>Total Price</h4>
+                            <h6>@((Model.Wproqty ?? 0) * (decimal.Parse(Model.WproIdfkNavigation.ProPrice ?? "0")))</h6> <!-- Calculating total price -->
+                        </li>
+                        <li>
+                            <h4>Status</h4>
+                            <h6>@Model.Wstatus</h6> <!-- Displaying the status -->
+                        </li>
+                        <li>
+                            <h4>Image</h4>
+                            <h6>
+                                @if (!string.IsNullOrEmpty(Model.WproIdfkNavigation.ProImg))
+                                {
+                                    <img src="~/upl_images/@Model.WproIdfkNavigation.ProImg" alt="Product Image" style="width: 50%; height: auto;">
+                                }
+                                else
+                                {
+                                    <img src="~/assets/img/no-image-available.png" alt="No image available" style="width: 50%; height: auto;">
+                                }
+                            </h6> <!-- Displaying the status -->
+                            
+@*                             <h4>@Model.WproIdfkNavigation.ProName</h4>
+                            <h6>@Model.WproIdfkNavigation.ProcatidFkNavigation.CatName</h6> *@
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+//------------------
+@* <div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Order Details</h4>
+                <h6>Full details of your order</h6>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="productdetails">
+                            <ul class="product-bar">
+                                <li>
+                                    <h4>Product Name</h4>
+                                    <h6>@Model.WproIdfkNavigation?.ProName</h6>
+
+                                </li>
+                                <li>
+                                    <h4>Category</h4>
+                                    @if (Model.WproIdfkNavigation != null && Model.WproIdfkNavigation.ProcatidFkNavigation != null)
+                                    {
+                                        <h6>@Model.WproIdfkNavigation.ProcatidFkNavigation.CatName</h6>
+                                    }
+                                    else
+                                    {
+                                        <h6>Category not available</h6>
+                                    }
+
+                                </li>
+                                <li>
+                                    <h4>Description</h4>
+                                    <h6>@Model.WproIdfkNavigation.ProDesc</h6> <!-- Accessing the Product description -->
+                                </li>
+                                <li>
+                                    <h4>Total Quantity</h4>
+                                    <h6>@Model.Wproqty</h6> <!-- Displaying the quantity -->
+                                </li>
+                                <li>
+                                    <h4>Total Price</h4>
+                                    <h6>@((Model.Wproqty ?? 0) * (decimal.Parse(Model.WproIdfkNavigation.ProPrice ?? "0")))</h6> <!-- Calculating total price -->
+                                </li>
+                                <li>
+                                    <h4>Status</h4>
+                                    <h6>@Model.Wstatus</h6> <!-- Displaying the status -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="slider-product-details">
+                            <div class="owl-carousel owl-theme product-slide">
+                                <div class="slider-product">
+                                    @if (!string.IsNullOrEmpty(Model.WproIdfkNavigation.ProImg))
+                                    {
+                                        <img src="~/upl_images/@Model.WproIdfkNavigation.ProImg" alt="Product Image" style="width: 100%; height: auto;">
+                                    }
+                                    else
+                                    {
+                                        <img src="~/assets/img/no-image-available.png" alt="No image available" style="width: 100%; height: auto;">
+                                    }
+                                    <h4>@Model.WproIdfkNavigation.ProName</h4>
+                                    <h6>@Model.WproIdfkNavigation.ProcatidFkNavigation.CatName</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+ *@

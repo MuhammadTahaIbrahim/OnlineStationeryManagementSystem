@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\models\\retailerorderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:models\\retailerorderlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\models\\regwholesaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:models\\regwholesaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\models\\regretailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:models\\regretailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\home\\showpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\home\\showpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\retailer\\showretailerorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\retailer\\showretailerorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\shared\\_retailerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\shared\\_retailerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\controllers\\retailercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:controllers\\retailercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\controllers\\wholesalercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:controllers\\wholesalercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\wholesaler\\wsaleslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\wholesaler\\wsaleslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\retailer\\rpurchaselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\retailer\\rpurchaselist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\home\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\home\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\retailer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\retailer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\wholesaler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\wholesaler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\models\\retailerorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:models\\retailerorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\wholesaler\\uprstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\wholesaler\\uprstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\home\\upwstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\home\\upwstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\shared\\_wholesalerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\shared\\_wholesalerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\wholesaler\\uprs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\wholesaler\\uprs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|c:\\users\\saddam hussain\\downloads\\online stationary management system\\online stationary management system\\eproject\\stationaryapp\\views\\retailer\\rshowsaleslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4003EADE-42F2-488F-B952-57B1DDDDAAF6}|StationaryApp.csproj|solutionrelative:views\\retailer\\rshowsaleslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Retailerorderlist.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Retailerorderlist.cs",
+              "RelativeDocumentMoniker": "Models\\Retailerorderlist.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Retailerorderlist.cs",
+              "RelativeToolTip": "Models\\Retailerorderlist.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:48.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowRetailerOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\ShowRetailerOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Retailer\\ShowRetailerOrders.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\ShowRetailerOrders.cshtml",
+              "RelativeToolTip": "Views\\Retailer\\ShowRetailerOrders.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "showpro.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\showpro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\showpro.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\showpro.cshtml",
+              "RelativeToolTip": "Views\\Home\\showpro.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAIBJwG4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wBkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:50.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Regretailer.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Regretailer.cs",
+              "RelativeDocumentMoniker": "Models\\Regretailer.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Regretailer.cs",
+              "RelativeToolTip": "Models\\Regretailer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:50.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Regwholesaler.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Regwholesaler.cs",
+              "RelativeDocumentMoniker": "Models\\Regwholesaler.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Regwholesaler.cs",
+              "RelativeToolTip": "Models\\Regwholesaler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:50.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WholesalerController.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Controllers\\WholesalerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WholesalerController.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Controllers\\WholesalerController.cs",
+              "RelativeToolTip": "Controllers\\WholesalerController.cs",
+              "ViewState": "AgIAAMICAAAAAAAAAAAYwNECAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_RetailerLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Shared\\_RetailerLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_RetailerLayout.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Shared\\_RetailerLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_RetailerLayout.cshtml",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAgwAoBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RetailerController.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Controllers\\RetailerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RetailerController.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Controllers\\RetailerController.cs",
+              "RelativeToolTip": "Controllers\\RetailerController.cs",
+              "ViewState": "AgIAAAYCAAAAAAAAAAAowBYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:50.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "wsaleslist.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\wsaleslist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wholesaler\\wsaleslist.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\wsaleslist.cshtml",
+              "RelativeToolTip": "Views\\Wholesaler\\wsaleslist.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAgwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wholesaler\\Index.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\Index.cshtml",
+              "RelativeToolTip": "Views\\Wholesaler\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "rpurchaselist.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\rpurchaselist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Retailer\\rpurchaselist.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\rpurchaselist.cshtml",
+              "RelativeToolTip": "Views\\Retailer\\rpurchaselist.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Retailer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Retailer\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "orderlist.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\orderlist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\orderlist.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\orderlist.cshtml",
+              "RelativeToolTip": "Views\\Home\\orderlist.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "uprstatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\uprstatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wholesaler\\uprstatus.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\uprstatus.cshtml",
+              "RelativeToolTip": "Views\\Wholesaler\\uprstatus.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAIBJwD0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Retailerorder.cs",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Retailerorder.cs",
+              "RelativeDocumentMoniker": "Models\\Retailerorder.cs",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Models\\Retailerorder.cs",
+              "RelativeToolTip": "Models\\Retailerorder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T17:50:50.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "upwstatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\upwstatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\upwstatus.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Home\\upwstatus.cshtml",
+              "RelativeToolTip": "Views\\Home\\upwstatus.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_WholesalerLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Shared\\_WholesalerLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_WholesalerLayout.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Shared\\_WholesalerLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_WholesalerLayout.cshtml",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAvwA8BAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "uprs.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\uprs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Wholesaler\\uprs.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Wholesaler\\uprs.cshtml",
+              "RelativeToolTip": "Views\\Wholesaler\\uprs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "rshowsaleslist.cshtml",
+              "DocumentMoniker": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\rshowsaleslist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Retailer\\rshowsaleslist.cshtml",
+              "ToolTip": "C:\\Users\\saddam hussain\\Downloads\\Online Stationary Management System\\Online Stationary Management System\\Eproject\\StationaryApp\\Views\\Retailer\\rshowsaleslist.cshtml",
+              "RelativeToolTip": "Views\\Retailer\\rshowsaleslist.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T17:50:50.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

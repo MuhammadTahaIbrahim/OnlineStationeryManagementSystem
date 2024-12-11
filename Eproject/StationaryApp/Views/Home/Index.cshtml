@@ -1,0 +1,46 @@
+﻿@model IEnumerable<StationaryApp.Models.ProDetail>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="row">
+            <!-- Add your content here if needed -->
+        </div>
+
+        <div class="card mb-0">
+            <div class="card-body">
+                <h4 class="card-title">Available Products</h4>
+                <div class="table-responsive">
+                    <table class="table datatable">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>No</th>
+                                <th>Product Image</th>
+                                <th>Product Name</th>
+                                <th>Category Name</th>
+                                @*                                 <th>Expiry Date</th> *@
+                                <th>Availability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model)
+                            {
+                                <tr>
+                                    <td>@product.ProId</td>
+                                    <td><img src="~/upl_images/@product.ProImg" width="80" /></td>
+                                    <td>@product.ProName</td>
+                                    @* <td>@product.ProDesc</td> *@
+                                    <td>@product.CatName</td>
+                                    <td>@product.Availability</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

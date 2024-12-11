@@ -1,0 +1,114 @@
+﻿@model IEnumerable<Whsalerorderlist>;
+@{
+    Layout = "_WholesalerLayout";
+}
+
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col">
+                    <h3 class="page-title">Purchase List</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="Wholesaler" asp-action="Index">Dashboard</a></li>
+                        @* <li class="breadcrumb-item active">Wholesalers Order List</li> *@
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        @* <h4>wholesaler order List</h4> *@
+                        @*  <h6>Manage your User</h6> *@
+                        @*   <p class="card-text">
+                        This is the most basic example of the datatables with zero configuration. Use the <code>.datatable</code> class to initialize datatables.
+                        </p> *@
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table  datanew ">
+                                <thead>
+                                    <tr>
+
+                                        @* <th>Order ID </th> *@
+                                        <th>Product name</th>
+@*                                         <th>product description</th> *@
+                                        <th>Category name</th>
+                                        <th>price</th>
+                                        <th>Quantity</th>
+                                        <th>Total Price</th>
+                                        <th>Image</th>
+
+                                        <th>Status</th>
+                                         <th>Action</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    @foreach (var item in ViewBag.wolist)
+                                    {
+
+
+                                        <tr>
+
+                                            @* <td>@item.WorderId</td> *@
+                                            @* <td>@item.Whsaleremail </td> *@
+                                            <td>@item.ProName</td>
+                                            @* <td>@item.ProDesc</td> *@
+                                            <td>@item.Catename</td>
+                                            <td>@item.ProPrice</td>
+                                            <td>@item.Wproqty</td>
+                                            <td>@item.Wtotalprice</td>
+                                            <td><img src="~/upl_images/@item.ProImg" width="40" /></td>
+                                            @* <td>@item.Wstatus</td> *@
+                                            <td>
+                                                @* @item.Wstatus *@
+                                                @if (item.Wstatus == "Approved")
+                                                {
+                                                    <a class="bg-lightgreen badges text-light">
+                                                        Approved
+                                                    </a>
+                                                }
+                                                else if (item.Wstatus == "Delivered")
+                                                {
+                                                    <a class="bg-warning badges text-light">
+                                                        Delivered
+                                                    </a>
+                                                }
+                                                else if (item.Wstatus == "Rejected")
+                                                {
+                                                    <a class="bg-info badges text-light">
+                                                        Rejected
+                                                    </a>
+                                                }
+                                                else
+                                                {
+                                                    <a class="bg-lightred badges text-light">
+                                                        Pending
+                                                    </a>
+                                                }
+                                            </td>
+
+                                            <td>
+
+                                                <a class="confirm-text" asp-controller="Wholesaler" asp-action="Delorder" asp-route-pid="@item.WorderId">
+                                                    <img src="~/admin/assets/img/icons/delete.svg" alt="img">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

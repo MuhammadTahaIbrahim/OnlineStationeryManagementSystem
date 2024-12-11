@@ -1,0 +1,77 @@
+﻿@model StationaryApp.Models.Product;
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Product Add</h4>
+                <h6>Create new product</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                  <form asp-controller="Home" asp-action="addpro" method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="form-group">
+                            <label>Product Name</label>
+                                <input type="text" class="form-control" placeholder="Name" asp-for="ProName">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="form-group">
+                            <label>Category</label>
+                                <select class="form-control" asp-for="ProcatidFk">
+                                    <option value="0">Select category</option>
+                                    @foreach (var item in ViewBag.catdata)
+                                    {
+                                        <option value="@item.CatId">@item.CatName</option>
+
+                                    }
+
+
+
+                                </select>
+                        </div>
+                    </div>
+                  
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label>Description</label>
+                                <textarea type="text" class="form-control" placeholder="Description" asp-for="ProDesc"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="form-group">
+                            <label>Price</label>
+                                <input type="text" class="form-control" placeholder="Price" asp-for="ProPrice">
+                        </div>
+                    </div>
+                  
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label> Product Image</label>
+                         
+                                    <input type="file" class="form-control" placeholder="Image" asp-for="ProImg">
+
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+   
+                            <button type="submit" class="btn btn-submit me-2">Submit</button>
+
+                    </div>
+                </div>
+           </form>
+            </div>
+        </div>
+
+    </div>
+</div>

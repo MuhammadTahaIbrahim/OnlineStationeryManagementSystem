@@ -1,0 +1,108 @@
+﻿@model StationaryApp.Models.Retailerorder;
+@{
+    Layout = "_WholesalerLayout";
+}
+@* <div class="page-wrapper cardhead">
+    <div class="content container-fluid">
+        <!-- Form to update status -->
+        <form method="post" asp-controller="Home" asp-action="upws">
+            <!-- Hidden input to send the id of the wholesaler -->
+            <input type="hidden" name="id" value="@Model.UserId" />
+
+            <!-- Status selection -->
+            <div class="form-group row">
+                <label class="col-form-label col-md-2">Status</label>
+                <div class="col-md-10">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="UserStatus" value="Active" @(Model.UserStatus == "Active" ? "checked" : "") /> Active
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="UserStatus" value="Deactive" @(Model.UserStatus == "Deactive" ? "checked" : "") /> Deactive
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Update Status</button>
+        </form>
+    </div>
+</div> *@
+@* //------------- *@
+<div class="page-wrapper cardhead">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="page-title">Update Retailer order Status</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a asp-controller="Wholesaler" asp-action="Index">Dashboard</a></li>
+                        @*                         <li class="breadcrumb-item active">Wholesaler order Status Update</li> *@
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Status</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm">
+
+                                <form method="post" asp-controller="Home" asp-action="upwstatus">
+                                    <!-- Hidden input to send the order ID -->
+                                    <input type="hidden" name="id" value="@Model.RorderId" />
+
+                                    <!-- Status selection -->
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-md-2">Status</label>
+                                        <div class="col-md-10">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="Wstatus" value="Approved" @(Model.Rstatus == "Approved" ? "checked" : "") /> Approved
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="Wstatus" value="Delivered" @(Model.Rstatus == "Delivered" ? "checked" : "") />Delivered
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="Wstatus" value="Rejected" @(Model.Rstatus == "Rejected" ? "checked" : "") />Rejected
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="Wstatus" value="Pending" @(Model.Rstatus == "Pending" ? "checked" : "") /> Pending
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-primary">Update Status</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+

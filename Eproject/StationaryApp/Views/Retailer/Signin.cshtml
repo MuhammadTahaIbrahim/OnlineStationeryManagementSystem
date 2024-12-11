@@ -1,0 +1,105 @@
+﻿@model StationaryApp.Models.Regretailer;
+
+@{
+    Layout = "";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content="POS - Bootstrap Admin Template">
+    <meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects">
+    <meta name="author" content="Dreamguys - Bootstrap Admin Template">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Login - Stationary Management System</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/admin/assets/img/favicon.jpg">
+
+    <link rel="stylesheet" href="~/admin/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/admin/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/admin/assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="~/admin/assets/css/style.css">
+</head>
+<body class="account-page">
+
+    <div class="main-wrapper">
+        <div class="account-content">
+            <div class="login-wrapper">
+                <div class="login-content">
+                    <div class="login-userset">
+                        <div class="login-logo">
+                            @* <img src="~/admin/assets/img/logo.png" alt="img"> *@
+                        </div>
+                        <div class="login-userheading">
+                            <h3>Retailer Sign In</h3>
+                            <h4>Please login to your account</h4>
+                        </div>
+                        <form class="mt-5 mb-5 login-input" method="post" asp-controller="Retailer" asp-action="Signin">
+                            <!-- Validation summary for general errors -->
+                            <div class="text-danger">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            </div>
+
+                            <!-- Display Success Message (Green color) if available -->
+                            @if (TempData["msg1"] != null)
+                            {
+                                <div class="alert alert-success text-center mb-3" role="alert">
+                                    @TempData["msg1"]
+                                </div>
+                            }
+
+                            <div class="form-login">
+                                <label for="userName">UserName</label>
+                                <div class="form-addons">
+                                    <input type="text" class="form-control" placeholder="Please Enter Your Username" asp-for="UserName" />
+                                    <!-- Validation message for username -->
+                                    <div class="text-danger">
+                                        @Html.ValidationMessageFor(model => model.UserName)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-login">
+                                <label for="userPass">Password</label>
+                                <div class="pass-group">
+                                    <input type="password" class="form-control" placeholder="Please Enter Your Password" asp-for="UserPass" />
+                                    <!-- Validation message for password -->
+                                    <div class="text-danger">
+                                        @Html.ValidationMessageFor(model => model.UserPass)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-login">
+                                <button type="submit" class="btn btn-login">Sign In</button>
+                            </div>
+
+                            <div class="signinform text-center">
+                                <h4>Don’t have an account? <a asp-controller="Retailer" asp-action="Signup">Sign Up</a></h4>
+                                <h4>Forgot Password? <a asp-controller="Retailer" asp-action="fpassword">Forgot Password</a></h4>
+                            </div>
+                            <p class="text-center text-danger">@ViewBag.msg1</p>
+                        </form>
+
+
+
+
+                    </div>
+                </div>
+                <div class="login-img">
+                    <img src="~/admin/assets/img/login.jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/admin/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/admin/assets/js/feather.min.js"></script>
+    <script src="~/admin/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admin/assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿@model IEnumerable<Product>;
+@{
+    Layout = "_RetailerLayout";
+}
+
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Product List</h4>
+                <h6>Manage your Items</h6>
+            </div>
+            @*  <div class="page-btn">
+            <a asp-controller="Home" asp-action="addpro" class="btn btn-added"><img src="~/admin/assets/img/icons/plus.svg" alt="img" class="me-1">Add New Product</a>
+            </div> *@
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="table-top">
+                    <div class="search-set">
+                        <div class="search-path">
+                            <a class="btn btn-filter" id="filter_search">
+                                <img src="~/admin/assets/img/icons/filter.svg" alt="img">
+                                <span><img src="~/admin/assets/img/icons/closes.svg" alt="img"></span>
+                            </a>
+                        </div>
+                        @*                         <div class="search-input">
+                        <a class="btn btn-searchset"><img src="assets/img/icons/search-white.svg" alt="img"></a>
+                        </div> *@
+                    </div>
+                    @*                     <div class="wordset">
+                    <ul>
+                    <li>
+                    <a data-bs-toggle="tooltip" data-bs-placement="top" title="pdf"><img src="assets/img/icons/pdf.svg" alt="img"></a>
+                    </li>
+                    <li>
+                    <a data-bs-toggle="tooltip" data-bs-placement="top" title="excel"><img src="assets/img/icons/excel.svg" alt="img"></a>
+                    </li>
+                    <li>
+                    <a data-bs-toggle="tooltip" data-bs-placement="top" title="print"><img src="assets/img/icons/printer.svg" alt="img"></a>
+                    </li>
+                    </ul>
+                    </div> *@
+                </div>
+
+
+
+                <div class="table-responsive">
+                    <table class="table  datanew">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Product Id
+                                </th>
+                                <th>Product Name</th>
+                                <th>Product Description</th>
+                                <th>Product Price </th>
+                                <th>Category</th>
+                                <th>Product Image</th>
+                                @* <th>Created By</th> *@
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in ViewBag.pro)
+                            {
+                                <tr>
+                                    <td>@item.ProId</td>
+                                    <td>@item.ProName</td>
+                                    <td>@item.ProDesc</td>
+                                    <td>@item.ProPrice</td>
+                                    <td>@item.CatName</td>
+
+                                    <td><img src="~/upl_images/@item.ProImg" width="80" /></td>
+                                    @*   <td>Admin</td> *@
+
+                                    <td>
+                                    @*     @if (item.Availability == "Out of Stock")
+                                        {
+                                            <a class="me-3" href="#" data-bs-toggle="modal" data-bs-target="#outOfStockModal">
+                                                <img src="~/admin/assets/img/icons/eye.svg" alt="img">
+                                            </a>
+                                        } *@
+                                       @*  else
+                                        { *@
+                                        <a class="me-3" asp-controller="Retailer" asp-action="rshowsaleslist" asp-route-id="@item.ProId">
+                                                <img src="~/admin/assets/img/icons/eye.svg" alt="img">
+                                            </a>
+                                     @*    } *@
+
+                                        @*   <a class="me-3" asp-controller="Wholesaler" asp-action="wshowsaleslist" asp-route-id="@item.ProId">
+                                    <img src="~/admin/assets/img/icons/eye.svg" alt="img">
+                                    </a> *@
+                                        @*     <a class="me-3" asp-controller="Home" asp-action="uppro" asp-route-       id="@item.ProId">
+                                    <img src="~/admin/assets/img/icons/edit.svg" alt="img">
+                                    </a>
+                                    <a class="confirm-text" asp-controller="Home" asp-action="DelPro" asp-route-pid="@item.ProId">
+                                    <img src="~/admin/assets/img/icons/delete.svg" alt="img">
+                                    </a> *@
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Modal -->
+@* <div class="modal fade" id="outOfStockModal" tabindex="-1" aria-labelledby="outOfStockModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-warning text-white">
+                <h5 class="modal-title" id="outOfStockModalLabel"><i class="bi bi-exclamation-triangle-fill"></i> Product Out of Stock</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-center">
+                    <i class="bi bi-box-arrow-down text-danger" style="font-size: 50px;"></i>
+                </div>
+                <p class="text-center">This product is currently out of stock. You cannot purchase it right now.</p>
+                <p class="text-center text-muted">Please check back later or explore similar products!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x-circle"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div> *@
+
+

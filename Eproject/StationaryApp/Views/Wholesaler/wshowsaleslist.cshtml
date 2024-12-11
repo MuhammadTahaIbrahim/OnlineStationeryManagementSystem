@@ -1,0 +1,109 @@
+﻿@model StationaryApp.Models.ProDetail
+
+@{
+    Layout = "_WholesalerLayout";
+}
+
+@if (Model == null)
+{
+    <p>No product details found.</p>
+}
+else
+{
+    <div class="page-wrapper">
+        <div class="content">
+            <div class="page-header">
+                <div class="page-title">
+                    <h4>Product Add</h4>
+                    <h6>Create new product</h6>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <form asp-controller="Wholesaler" asp-action="wshowsaleslist" method="post">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <input type="hidden" class="form-control" asp-for="ProId" name="proid" value="@Model.ProId" />
+                                <div class="form-group">
+                                    <label>Product Name</label>
+                                    <input type="text" class="form-control" value="@Model.ProName" readonly />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label>Category Name</label>
+                                    <input type="text" class="form-control" name="catename" value="@Model.CatName" readonly />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label>Description</label>
+                                    <textarea class="form-control" readonly>@Model.ProDesc</textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label>Price</label>
+                                    <input type="text" class="form-control" id="productPrice" value="@Model.ProPrice" readonly data-price="@Model.ProPrice" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label>Product Image</label>
+                                    @if (!string.IsNullOrEmpty(Model.ProImg))
+                                    {
+                                        <img src="@Url.Content($"~/upl_images/{Model.ProImg}")" width="100" alt="Product Image" />
+                                    }
+                                    else
+                                    {
+                                        <p>No image available</p>
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label>Quantity</label>
+                                    <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" name="pqty" min="10" max="50" required oninput="calculateTotal()" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label>Total Price</label>
+                                    <input type="text" class="form-control" id="totalPrice" readonly name="totalprice" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6 col-12">
+                                <div class="form-group">
+                                    <label>Order Date</label>
+                                    <input type="text" class="form-control" value="@ViewBag.OrderDate?.ToString("yyyy-MM-dd HH:mm:ss")" readonly />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <button type="submit" class="btn btn-submit me-2">Submit</button>
+                            </div>
+
+                            <p class="text-danger">@ViewBag.msg</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function calculateTotal() {
+            var price = parseFloat(document.getElementById('productPrice').getAttribute('data-price')) || 0;
+            var quantity = parseFloat(document.getElementById('quantity').value) || 0;
+            var totalPrice = price * quantity;
+            document.getElementById('totalPrice').value = totalPrice.toFixed(2);
+        }
+    </script>
+}
