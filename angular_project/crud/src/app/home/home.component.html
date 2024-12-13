@@ -1,0 +1,90 @@
+<!-- <p>home works!</p> -->
+<!-- <p>home works!</p> -->
+<div class="container my-5">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Add User</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">User List</button>
+                </li>
+               
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <!-- add user -->
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <form [formGroup]="userform" (ngSubmit)="submitform()">
+                        <!-- alert box -->
+                    <div *ngIf="message" class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+                      <strong>Record Inserted Successfully</strong>
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" (click)="alertclose()"></button>
+                    </div>
+
+                  <div class="row my-5">
+                    <div class="col">
+                      <label class="form-label">Fullname</label>
+                      <input type="text" class="form-control" name="fullname" formControlName="fullname" placeholder="Enter Fullname" >
+                    </div>
+                    <div class="col">
+                      <label class="form-label">Mobile</label>
+                      <input type="text" class="form-control" placeholder=" Enter Mobile" name="mobile" formControlName="mobile">
+                    </div>
+                  </div>
+                  <div class="row my-3">
+                    <div class="col">
+                      <label class="form-label">Email</label>
+                      <input type="text" class="form-control" placeholder="Enter Email" name="email" formControlName="email">
+                    </div>
+                    <div class="col">
+                      <label class="form-label">Age</label>
+                      <input type="text" class="form-control" placeholder="Enter Age" name="age" formControlName="age">
+                    </div>
+                  </div>
+                  <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-primary mx-2">Add</button>
+                   
+                  </div>
+                </form>
+
+                </div>
+
+
+
+                  <!-- Show user -->
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+     <!-- table handle  -->
+     <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Username</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone</th>
+          <th scope="col">Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of fetchdata">
+          <th scope="row">{{user.id}}</th>
+          <td>{{user.fullname}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.mobile}}</td>
+          <td>{{user.age}}</td>
+          <td><span class="btn btn-danger" (click)="delete_user(user.id)">Delete</span></td>
+          <td><a class="btn btn-primary" routerLink="/update/{{user.id}}">Update</a></td>
+        </tr>
+       
+       
+      </tbody>
+    </table>
+
+                </div>
+               
+              </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "user1": [
+    {
+      "id": 1,
+      "fullname": "ahmad taha",
+      "email": "ahmaderror@gmail.com",
+      "mobile": 1,
+      "age": 1
+    },
+    {
+      "fullname": "taha",
+      "email": "taha@gmail.com",
+      "mobile": "0273713",
+      "age": "55",
+      "id": 2
+    },
+    {
+      "fullname": "ali",
+      "email": "ali@gmail.com",
+      "mobile": "88888",
+      "age": "88",
+      "id": 3
+    },
+    {
+      "fullname": "",
+      "email": null,
+      "mobile": null,
+      "age": null,
+      "id": 4
+    },
+    {
+      "fullname": "sd",
+      "email": "sara@gmail.com",
+      "mobile": "32423",
+      "age": "44",
+      "id": 6
+    },
+    {
+      "fullname": "sa",
+      "email": "sa@gmail.com",
+      "mobile": "777",
+      "age": "89",
+      "id": 7
+    },
+    {
+      "fullname": "muneeb",
+      "email": "muneeb1@gmail.com",
+      "mobile": "99",
+      "age": "35",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
